@@ -1,0 +1,6 @@
+c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\TypeScriptHTMLApp1\bin\TypeScriptHTMLApp1.dll.config
+c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\TypeScriptHTMLApp1\bin\TypeScriptHTMLApp1.dll
+c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\TypeScriptHTMLApp1\bin\TypeScriptHTMLApp1.pdb
+c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\TypeScriptHTMLApp1\obj\Debug\TypeScriptHTMLApp1.csprojResolveAssemblyReference.cache
+c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\TypeScriptHTMLApp1\obj\Debug\TypeScriptHTMLApp1.dll
+c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\TypeScriptHTMLApp1\obj\Debug\TypeScriptHTMLApp1.pdb

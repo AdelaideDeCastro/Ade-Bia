@@ -1,0 +1,82 @@
+﻿body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(../images/OJo.jpg);
+    background-repeat: no-repeat;
+
+}
+header{
+    background-color: #802b00;
+    text-align: center;
+    margin: 10px;
+    height: 40px;
+}
+footer{
+    background-color: #802b00;
+    text-align: center;
+    margin: 10px;
+    height: 40px;
+}
+.title{
+    color: #cd9965;
+}
+.job{
+    font-size: 15px;
+    padding: 25px; 
+}
+#ourmenu{
+    display: table;
+    border-spacing: 15px;
+}
+#tableRow{
+    display: table-row;
+    
+}
+section#menu{
+    display: table-cell;
+    border: 2px solid #cc7a00;
+    padding: 15px;
+}
+#workDay{
+    font-size: 14px;
+    color: #800000;
+    line-height: 40px;
+}
+section#fortune{
+    display: table-cell;
+    border: 2px solid #cc7a00;
+    padding: 15px;
+}
+#button{
+    display: block;
+    margin: auto;
+    width: 180px;
+}
+aside{
+    display: table-cell;
+    border: 2px solid #cc7a00;
+    padding: 15px;
+}
+.pasta_riso{
+    border-color: #802b00;
+    border-radius: 5px;
+    border-style: dashed;
+    line-height: 25px;
+}
+.special{
+    font-size: 20px;
+    font-weight: bold;
+    color: #b30000;
+    line-height: 40px;
+}
+input.food{
+    color: #800000;
+    font-size: 14px;
+    line-height: 30px;
+}
+h1, h2{
+    color: #b30000;
+}
+p{
+    color: #800000;
+}
+

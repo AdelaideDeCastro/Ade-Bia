@@ -1,0 +1,6 @@
+c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\weeklyMenu\bin\weeklyMenu.dll.config
+c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\weeklyMenu\bin\weeklyMenu.dll
+c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\weeklyMenu\bin\weeklyMenu.pdb
+c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\weeklyMenu\obj\Debug\weeklyMenu.csprojResolveAssemblyReference.cache
+c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\weeklyMenu\obj\Debug\weeklyMenu.dll
+c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\weeklyMenu\obj\Debug\weeklyMenu.pdb

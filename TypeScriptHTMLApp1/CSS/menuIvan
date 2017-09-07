@@ -1,0 +1,52 @@
+﻿body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(../images/OJo.jpg);
+    background-repeat: no-repeat;
+
+}
+header{
+    background-color: #802b00;
+    text-align: center;
+    margin: 10px;
+    height: 40px;
+}
+footer{
+    background-color: #802b00;
+    text-align: center;
+    margin: 10px;
+    height: 40px;
+}
+.title{
+    color: #ffd9b3;
+}
+#ourmenu{
+    display: table;
+    border-spacing: 15px;
+}
+#tableRow{
+    display: table-row;
+}
+section#menu{
+    display: table-cell;
+    border: 2px solid #cc7a00;
+    padding: 15px;
+}
+section#fortune{
+    display: table-cell;
+    border: 2px solid #cc7a00;
+    padding: 15px;
+}
+aside{
+    display: table-cell;
+    border: 2px solid #cc7a00;
+    padding: 15px;
+}
+h1, h2{
+    color: #804000;
+}
+p{
+    color: #995c00;
+}
+ul{
+    color: #995c00;
+}

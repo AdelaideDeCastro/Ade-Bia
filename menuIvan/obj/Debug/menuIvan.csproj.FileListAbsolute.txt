@@ -1,0 +1,6 @@
+c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\menuIvan\bin\menuIvan.dll.config
+c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\menuIvan\bin\menuIvan.dll
+c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\menuIvan\bin\menuIvan.pdb
+c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\menuIvan\obj\Debug\menuIvan.dll
+c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\menuIvan\obj\Debug\menuIvan.pdb
+c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\menuIvan\obj\Debug\menuIvan.csprojResolveAssemblyReference.cache
