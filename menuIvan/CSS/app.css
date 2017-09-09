@@ -50,6 +50,7 @@ section#fortune{
     display: block;
     margin: auto;
     width: 180px;
+    cursor: pointer;
 }
 aside{
     display: table-cell;

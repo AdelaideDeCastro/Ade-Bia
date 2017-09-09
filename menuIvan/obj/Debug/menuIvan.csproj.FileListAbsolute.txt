@@ -4,3 +4,9 @@ c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\menuIvan\bin\men
 c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\menuIvan\obj\Debug\menuIvan.dll
 c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\menuIvan\obj\Debug\menuIvan.pdb
 c:\users\adela\documents\visual studio 2015\Projects\weeklyMenu\menuIvan\obj\Debug\menuIvan.csprojResolveAssemblyReference.cache
+C:\Repository\Ade-Bia\menuIvan\bin\menuIvan.dll.config
+C:\Repository\Ade-Bia\menuIvan\bin\menuIvan.dll
+C:\Repository\Ade-Bia\menuIvan\bin\menuIvan.pdb
+C:\Repository\Ade-Bia\menuIvan\obj\Debug\menuIvan.csprojResolveAssemblyReference.cache
+C:\Repository\Ade-Bia\menuIvan\obj\Debug\menuIvan.dll
+C:\Repository\Ade-Bia\menuIvan\obj\Debug\menuIvan.pdb

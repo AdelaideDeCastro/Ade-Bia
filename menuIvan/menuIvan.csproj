@@ -28,8 +28,7 @@
     <Content Include="images\piatto.png" />
     <Content Include="images\Restaurant-Menu.jpg" />
     <Content Include="index.html" />
-    <Content Include="JS\JavaScript.js" />
-    <Content Include="JS\jquery-3.2.1.js" />
+    <Content Include="JS\pippo.js" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
