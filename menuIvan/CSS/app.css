@@ -29,19 +29,13 @@ footer{
 }
 #tableRow{
     display: table-row;
-    
-}
-section#menu{
-    display: table-cell;
-    border: 2px solid #cc7a00;
-    padding: 15px;
 }
 #workDay{
     font-size: 14px;
     color: #800000;
     line-height: 40px;
 }
-section#fortune{
+#tableRow section{
     display: table-cell;
     border: 2px solid #cc7a00;
     padding: 15px;
@@ -51,11 +45,6 @@ section#fortune{
     margin: auto;
     width: 180px;
     cursor: pointer;
-}
-aside{
-    display: table-cell;
-    border: 2px solid #cc7a00;
-    padding: 15px;
 }
 .pasta_riso{
     border-color: #802b00;
@@ -80,4 +69,9 @@ h1, h2{
 p{
     color: #800000;
 }
-
+#tableRow section{
+    width: 32%;
+}
+th, tr{
+    color: #b30000;
+}
