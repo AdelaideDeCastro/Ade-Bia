@@ -5,24 +5,23 @@
 
 }
 header{
-    background-color: #802b00;
+    background-color: #009900;
     text-align: center;
     margin: 10px;
     height: 40px;
 }
 footer{
-    background-color: #802b00;
+    background-color: #009900;
     text-align: center;
     margin: 10px;
     height: 40px;
 }
 .title{
-    color: #cd9965;
+    color: white;
 }
 .job{
-    font-size: 15px;
-    padding: 25px; 
-}
+    padding-top: 10px;
+    }
 #ourmenu{
     display: table;
     border-spacing: 15px;
@@ -31,23 +30,23 @@ footer{
     display: table-row;
 }
 #workDay{
-    font-size: 14px;
-    color: #800000;
+    font: 17px;
+    color: #cc0000;
     line-height: 40px;
 }
 #tableRow section{
     display: table-cell;
-    border: 2px solid #cc7a00;
+    border: 2px solid #009900;
     padding: 15px;
 }
-#button{
+#button, #newChoise{
     display: block;
     margin: auto;
     width: 180px;
     cursor: pointer;
 }
 .pasta_riso{
-    border-color: #802b00;
+    border-color: #009900;
     border-radius: 5px;
     border-style: dashed;
     line-height: 25px;
@@ -55,7 +54,7 @@ footer{
 .special{
     font-size: 20px;
     font-weight: bold;
-    color: #b30000;
+    color: #e62e00;
     line-height: 40px;
 }
 input.food{
@@ -64,14 +63,23 @@ input.food{
     line-height: 30px;
 }
 h1, h2{
-    color: #b30000;
+    font-weight: bolder;
+    color: #e62e00;
 }
 p{
-    color: #800000;
+    font-size: 17px;
+    color: #009900;
 }
-#tableRow section{
-    width: 32%;
+th{
+    color: #009900;
 }
-th, tr{
-    color: #b30000;
+td{
+    color: #cc0000;
+}
+th, td{
+    text-align: left;
+    font-size: 17px;
+}
+section{
+    width: 640px;
 }

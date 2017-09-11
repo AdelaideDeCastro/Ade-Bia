@@ -1,13 +1,19 @@
 ﻿window.onload = function () {
     validationCheckbox();
+    deleteMenu();
 
     $('#button').click(function () {
-        var idset = setInterval(function () { AnimateRotate(360, 1000) }, 500)
-        randomMenu();
-        insertLunch();
+        //var idset = setInterval(function () { AnimateRotate(360, 1000) }, 500)
+        var validation = checkValidation();
+        if (validation) {
+            AnimateRotate(360, 1000);
+            randomMenu();
+            insertLunch();
+        } else
+            return false;
 
 
-        setTimeout(function () { stopRotate(idset); },4000)
+        //setTimeout(function () { stopRotate(idset); },4000)
         
     })
 
@@ -37,26 +43,41 @@ function randomMenu() {
     var i = 0;
     do {
         var $randomList = $("#workDay li").eq(Math.floor(Math.random() * lengthOptions));
-        i++;
         $("#result td").eq(i).text($randomList.text());
+        i++;
     }
     while (i < 5);
 }
 
-function stopRotate(id){
-    clearInterval(id);
-};
+////function stopRotate(id){
+//    clearInterval(id);
+//};
   
 function validationCheckbox() {
     $('#lunch input, #dinner input').on('change', function (evt) {
                 if ($(this).siblings(':checked').length >= 2) {
                     this.checked = false;
-                    //aggiungere messaggio per l'utente
+                    popup.classList("Sorry, you can check only two meals"); //aggiungere messaggio per l'utente
                 }
-            });
+    });
 };
 
 function insertLunch() {
-    $("#result td").eq(5).text($('#lunch input:checked').eq(0).val());
-    $("#result td").eq(6).text($('#lunch input:checked').eq(1).val());
+    $("#result td").eq(5).text($('#lunch input:checked').eq(0).val() + " and " + $('#dinner input:checked').eq(0).val());
+    $("#result td").eq(6).text($('#lunch input:checked').eq(1).val() + " and " + $('#dinner input:checked').eq(1).val());
 }
+
+function checkValidation() {
+        if ($('#lunch input, #dinner input').siblings(':checked').length != 4) {
+            alert("Select two meals");
+            return false;
+        } else
+            return true;
+    }
+
+function deleteMenu() {
+    $('#newChoise').click(function () {
+        $("#result td").empty();
+        $('#lunch input, #dinner input').prop('checked', false);
+    });
+};

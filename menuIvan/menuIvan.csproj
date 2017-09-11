@@ -26,7 +26,10 @@
     <Content Include="images\fork.jpg" />
     <Content Include="images\OJo.jpg" />
     <Content Include="images\piatto.png" />
+    <Content Include="images\piattoVuoto.jpg" />
     <Content Include="images\Restaurant-Menu.jpg" />
+    <Content Include="images\uova.jpg" />
+    <Content Include="images\wood-grain.jpg" />
     <Content Include="index.html" />
     <Content Include="JS\jquery-3.2.1.js" />
     <Content Include="JS\pippo.js" />
@@ -34,8 +37,11 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="utilityClass.ts" />
+    <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="packages.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
