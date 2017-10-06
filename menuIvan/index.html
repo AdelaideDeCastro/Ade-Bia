@@ -12,67 +12,62 @@
     </header>
     <div id="ourmenu">
         <div id="tableRow">
-            <section id="menu">
-                <article>
-                    <h2>Your <strong>Dinner Choices</strong> from Monday to Friday</h2>
-                    <ul id="workDay">
-                        <li>Salsicce e lenticchie</li>
-                        <li>Pesce e fagiolini/peperoni/patare/funghi/verza/cappuccio</li>
-                        <li>Pollo e fagiolini/peperoni/patare/funghi/verza/cappuccio</li>
-                        <li>Polpette e fagiolini/peperoni/patare/funghi/verza/cappuccio</li>
-                        <li>Frittata e fagiolini/peperoni/patare/funghi/verza/cappuccio</li>
-                        <li>Straccetti e fagiolini/peperoni/patare/funghi/verza/cappuccio</li>
-                        <li>Bistecca e fagiolini/peperoni/patare/funghi/verza/cappuccio</li>
-                        <li>Involtini di verza e fagiolini/peperoni/patare/funghi/verza/cappuccio</li>
-                    </ul>
-                </article>
+            <section id="menu" class="foodTime">
+                <h2>Your <strong>Dinner Choices</strong> from Monday to Friday</h2>
+                <ul id="workDay">
+                    <li>Salsicce e lenticchie</li>
+                    <li>Pesce e fagiolini/peperoni/patare/funghi/verza/cappuccio</li>
+                    <li>Pollo e fagiolini/peperoni/patare/funghi/verza/cappuccio</li>
+                    <li>Polpette e fagiolini/peperoni/patare/funghi/verza/cappuccio</li>
+                    <li>Frittata e fagiolini/peperoni/patare/funghi/verza/cappuccio</li>
+                    <li>Straccetti e fagiolini/peperoni/patare/funghi/verza/cappuccio</li>
+                    <li>Bistecca e fagiolini/peperoni/patare/funghi/verza/cappuccio</li>
+                    <li>Involtini di verza e fagiolini/peperoni/patare/funghi/verza/cappuccio</li>
+                </ul>
             </section>
-            <section id="fortune">
-                <article>
-                    <h2>Prey the goddess Fortuna</h2>
-                    <p>Choise your Weekly Menu to be HAPPY!!!</p>
-                    <img src="images/piatto.png" id="button" />
-                    <div id="showMenu">
-                        <table id="result">
-                            <tr>
-                                <th>Monday:</th>
-                                <td id="monday"></td>
-                            </tr>
-                            <tr>
-                                <th>Tuesday:</th>
-                                <td id="tuesday"></td>
-                            </tr>
-                            <tr>
-                                <th>Wednesday:</th>
-                                <td id="wednesday"></td>
-                            </tr>
-                            <tr>
-                                <th>Thursday:</th>
-                                <td id="thursday"></td>
-                            </tr>
-                            <tr>
-                                <th>Friday:</th>
-                                <td id="friday"></td>
-                            </tr>
-                            <tr>
-                                <th>Saturday:</th>
-                                <td id="saturday"></td>
-                            </tr>
-                            <tr>
-                                <th>Sunday</th>
-                                <td id="sunday"></td>
-                            </tr>
-                        </table>
-                    </div>
-                    <img src="images/uova.jpg" id="newChoise"/>
-                </article>
+            <section id="fortune" class="foodTime">
+                <h2>Prey the goddess Fortuna</h2>
+                <p>Choise your Weekly Menu to be HAPPY!!!</p>
+                <img src="images/piatto.png" id="button" />
+                <div id="showMenu">
+                    <table id="result">
+                        <tr>
+                            <th>Monday:</th>
+                            <td id="monday"></td>
+                        </tr>
+                        <tr>
+                            <th>Tuesday:</th>
+                            <td id="tuesday"></td>
+                        </tr>
+                        <tr>
+                            <th>Wednesday:</th>
+                            <td id="wednesday"></td>
+                        </tr>
+                        <tr>
+                            <th>Thursday:</th>
+                            <td id="thursday"></td>
+                        </tr>
+                        <tr>
+                            <th>Friday:</th>
+                            <td id="friday"></td>
+                        </tr>
+                        <tr>
+                            <th>Saturday:</th>
+                            <td id="saturday"></td>
+                        </tr>
+                        <tr>
+                            <th>Sunday</th>
+                            <td id="sunday"></td>
+                        </tr>
+                    </table>
+                </div>
+                <img src="images/uova.jpg" id="newChoise" />
             </section>
-            <section>
-                <article>
-                    <h2>Choose your special weekend dishes</h2>
-                    <form>
-                        <fieldset class="pasta_riso" id="lunch">
-                            <legend class="special">Special Lunch</legend>
+            <section id="weekChoise" class="foodTime">
+                <h2>Choose your special weekend dishes</h2>
+                <form>
+                    <fieldset class="pasta_riso" id="lunch">
+                        <legend class="special">Special Lunch</legend>
                             <input type="checkbox" name="lunch" value="Carbonara" class="food" />Carbonara<br />
                             <input type="checkbox" name="lunch" value="Amatricina" class="food" />Amatricina<br />
                             <input type="checkbox" name="lunch" value="Gnocchi" class="food" />Gnocchi<br />
@@ -80,21 +75,18 @@
                             <input type="checkbox" name="lunch" value="Rissotto zafferano" class="food" />Rissotto zafferano<br />
                             <input type="checkbox" name="lunch" value="Risotto pancetta e funghi" class="food" />Risotto pancetta e funghi<br />
                             <input type="checkbox" name="lunch" value="Risotto pancetta e asparagi" class="food" />Risotto pancetta e asparagi<br />
-                        </fieldset>
-                    </form>
-                </article>
-                <article>
-                    <form>
-                        <fieldset class="pasta_riso" id="dinner">
-                            <legend class="special">Special Dinner</legend>
-                            <input type="checkbox" name="dinner" value="Pulled Pork" class="food dinner" />Pulled Pork<br />
-                            <input type="checkbox" name="dinner" value="Pizza" class="food" />Pizza<br>
-                            <input type="checkbox" name="dinner" value="Kebab" class="food" />Kebab<br />
-                            <input type="checkbox" name="dinner" value="Hamburger" class="food" />Hamburger<br />
-                            <input type="checkbox" name="dinner" value="Hot Dog" class="food" />Hot Dog<br />
-                        </fieldset>
-                    </form>
-                </article>
+                    </fieldset>
+                </form>
+                <form>
+                    <fieldset class="pasta_riso" id="dinner">
+                        <legend class="special">Special Dinner</legend>
+                        <input type="checkbox" name="dinner" value="Pulled Pork" class="food dinner" />Pulled Pork<br />
+                        <input type="checkbox" name="dinner" value="Pizza" class="food" />Pizza<br>
+                        <input type="checkbox" name="dinner" value="Kebab" class="food" />Kebab<br />
+                        <input type="checkbox" name="dinner" value="Hamburger" class="food" />Hamburger<br />
+                        <input type="checkbox" name="dinner" value="Hot Dog" class="food" />Hot Dog<br />
+                    </fieldset>
+                </form>
             </section>
         </div>
     </div>

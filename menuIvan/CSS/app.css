@@ -4,18 +4,21 @@
     background-repeat: no-repeat;
 
 }
+
 header{
     background-color: #009900;
     text-align: center;
     margin: 10px;
     height: 40px;
 }
+
 footer{
     background-color: #009900;
     text-align: center;
     margin: 10px;
     height: 40px;
 }
+
 .title{
     color: white;
 }

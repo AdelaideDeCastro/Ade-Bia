@@ -5,7 +5,7 @@ window.onload = function () {
     deleteMenu();
 
     $('#button').click(function () {
-        //var idset = setInterval(function () { AnimateRotate(360, 1000) }, 500)
+
         var validation = checkValidation();
         if (validation) {
             AnimateRotate(360, 1000);
@@ -13,26 +13,16 @@ window.onload = function () {
             insertLunch();
         } else
             return false;
-
-
-        //setTimeout(function () { stopRotate(idset); },4000)
-
     })
-
 };
-//////////To ruotate the image
+
 function AnimateRotate(angle: number, duration: number) {
-    ////////caching the object for performance reasons
+
     var $elem = $('#button');
 
-    //////////we use a pseudo object for the animation
-    //////////(starts from `0` to `angle`), you can name it as you want
     $({ deg: 0 }).animate({ deg: angle }, {
         duration: duration,
         step: function (now) {
-            /////////in the step-callback (that is fired each step of the animation),
-            //////////you can use the `now` paramter which contains the current
-            ////////// animation-position (`0` up to `angle`)
             $elem.css({
                 transform: 'rotate(' + now + 'deg)'
             });
@@ -50,10 +40,6 @@ function randomMenu() {
     }
     while (i < 5);
 }
-
-////function stopRotate(id){
-//    clearInterval(id);
-//};
 
 function validationCheckbox() {
     $('#lunch input, #dinner input').on('change', function (evt) {
